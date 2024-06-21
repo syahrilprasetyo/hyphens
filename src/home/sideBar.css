@@ -1,0 +1,45 @@
+/* FADE ANIMATIONS */
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 400ms;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 400ms;
+}
+
+
+/* Add transition properties */
+.sideBar {
+  height: 100%; /* h-full */
+  width: 100%; /* w-full */
+  background-color: black; /* bg-black */
+  z-index: 50; /* z-50 */
+  display: flex; /* flex */
+  flex-direction: column; /* flex-col */
+  position: fixed; /* fixed */
+  transition: 0.4s ease-in;
+}
+
+.sidebar-closed {
+  min-width: 40px;
+}
+
+a.active {
+  height: 24px;
+  font-size: large;
+  font-weight: 700;
+  border-bottom: 3px solid #FF8A00;
+; 
+  border-radius:  0px;
+
+}

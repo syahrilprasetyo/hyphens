@@ -49,6 +49,7 @@ function ProductCard(props: ProductProps) {
     <>
       <div className=" min-w-[200px] h-[366px] shadow-lg flex flex-col py-4 bg-white rounded-md">
         <img
+          crossOrigin="anonymous"
           src={props.item.image}
           alt="Product Image"
           className=" w-[200px] h-[200px]"
